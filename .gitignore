@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/           # Just in case someone names their venv .env
+
+# dotenv files
+.env
+.env.*
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Wheels and eggs
+*.egg-info/
+*.egg
+*.whl
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# mypy, pylint, etc
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local logs and dumps
+*.log
+*.pot
+*.mo
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp

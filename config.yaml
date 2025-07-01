@@ -1,0 +1,21 @@
+config:
+  default_dest: mods # optional, can be relative or absolute
+  launcher_repo: https://github.com/Factorio-Access/Factorio-Access-Launcher.git
+  update: true  # Don't update repos if already present (default: true if omitted)
+
+modules:
+  - name: FactorioAccess
+    repo: https://github.com/Factorio-Access/FactorioAccess.git
+    branch: f2.0-dev # optional, leave empty for default
+    # commit: # optional, leave empty for latest
+    # dest: # Optional, path is relative to default_dest (or --dest); if it ends with '/', mod name is appended, otherwise used as-is.
+    update: false   # Overrides global update value for this mod (default: true if omitted)
+    bundle_zip: false
+    beta: true
+  - name: Kruise_Kontrol_Remote
+    repo: https://github.com/ParadoxiKat/kk-remote.git
+  - name: PavementDriveAssistContinued
+    repo: https://github.com/ParadoxiKat/Factorio-PavementDriveAssistContinued.git
+    commit: a9bdfaa82dd21c6dec524da83739749b7439a9cc
+  - name: VehicleSnap
+    repo: https://github.com/ParadoxiKat/Factorio-VehicleSnap.git
