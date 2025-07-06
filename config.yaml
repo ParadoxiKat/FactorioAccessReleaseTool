@@ -13,9 +13,7 @@ modules:
     bundle_zip: false
     beta: true
   - name: Kruise_Kontrol_Remote
-    repo: https://github.com/ParadoxiKat/kk-remote.git
+    repo: https://github.com/Factorio-Access/kk-remote.git
   - name: PavementDriveAssistContinued
     repo: https://github.com/ParadoxiKat/Factorio-PavementDriveAssistContinued.git
     commit: a9bdfaa82dd21c6dec524da83739749b7439a9cc
-  - name: VehicleSnap
-    repo: https://github.com/ParadoxiKat/Factorio-VehicleSnap.git
