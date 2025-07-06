@@ -790,18 +790,10 @@ def install_assets_to_data_dir(default_dest, data_dir, factorio_path):
         shutil.copy2(os.path.join(default_dest, "launcher.exe"), data_dir)
         print("Copied mod-list.json and launcher.exe.")
 
-        # Generate data-raw-dump.json
-        print("Generating data-raw-dump.json...")
-        returncode = subprocess.call([factorio_path, "--dump-data"])
-        if returncode == 0:
-            print("Success: data-raw-dump.json generated.")
-            return True
-        else:
-            print("Failed: factorio --dump-data did not succeed.")
-            return False
     except Exception as e:
         print(f"Error during asset installation: {e}")
         return False
+    return True
 
 def install_jaws_jkm_file(source_dir):
     """
